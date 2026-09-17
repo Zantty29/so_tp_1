@@ -1,0 +1,3 @@
+CLAUDE
+Esto le preguente a la IA de Claude para vaciar el carrito ya que no me funcionaba
+explicame como crear un boton y la funcion en js para que cuando ponga vaciar carrito vuelva el precio  a 0 y se vacie el carrito

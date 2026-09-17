@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parcial 2 - Programación 1 | Ronin Manga</title>
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__marca">
+      <div>
+        <h1 class="header__titulo">Parcial 2 - Programación 1</h1>
+        <p class="header__slogan">Tu librería de mangas de cabecera</p>
+      </div>
+    </div>
+
+    <button id="btn-ver-carrito" class="carrito-resumen" type="button" aria-haspopup="dialog">
+      <span class="carrito-resumen__icono" aria-hidden="true">🛒</span>
+      <span class="carrito-resumen__texto">
+        <span id="cart-cantidad">0</span> ítems ·
+        <span id="cart-total">$0</span>
+      </span>
+    </button>
+  </header>
+
+  <section class="hero">
+    <h2>Encontrá tu próxima obsesión</h2>
+    <p>Shonen, seinen y shoujo, directo del catálogo a tu estantería.</p>
+  </section>
+
+  <main class="contenedor">
+    <nav id="filtros" class="filtros" aria-label="Filtrar por categoría">
+    </nav>
+
+    <section id="catalogo" class="catalogo" aria-live="polite">
+    </section>
+  </main>
+  <script src="js/parcial.js"></script>
+</body>
+</html>
