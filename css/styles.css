@@ -14,6 +14,7 @@
 
 * {
   box-sizing: border-box;
+  background-color: blue;
 }
 
 body {
@@ -27,7 +28,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Bangers', 'Rubik', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 10px;
   margin: 0;
 }
 
