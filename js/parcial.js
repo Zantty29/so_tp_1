@@ -67,6 +67,8 @@ const productos = [
 
 let carrito = [];
 
+//Cambio para sistema operativo
+
 document.addEventListener("DOMContentLoaded", () => {
   renderFiltros();
   renderCatalogo("todos");
